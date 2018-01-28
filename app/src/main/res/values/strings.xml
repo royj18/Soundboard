@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Soundboard</string>
+    <string name="i_m_a_button">I\'m a button</string>
+
+    <string-array name="soundNames">
+        <item>Dangerzone</item>
+        <item>Airhorn</item>
+        <item>Bing Bong</item>
+        <item>Crap Can</item>
+        <item>Heavy No</item>
+        <item>Tearing me apart Lisa</item>
+        <item>Aurora Borealis</item>
+        <item>DOH</item>
+    </string-array>
+
+</resources>
