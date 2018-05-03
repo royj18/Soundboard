@@ -52,11 +52,13 @@ public class SoundboardActivity extends AppCompatActivity {
         // Parse mp3's and resource names into a tidy object passed system
 
         int cIndex = 0;
-        int tIndex = Sounds.values().length;
+        int tIndex = nameList.size();
 
         ArrayList<SoundObject> soundItems = new ArrayList<>();
 
-        while (cIndex != tIndex - 1) {
+        Log.i("SoundLoader", "Going to be looping: " + String.valueOf(tIndex));
+
+        while (cIndex < (tIndex)) {
             int aIdInt = cIndex + 1;
             String aId = String.valueOf(aIdInt);
             if (aIdInt < 10)
